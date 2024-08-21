@@ -12,11 +12,6 @@ class LoginScreen extends StatefulWidget{
 
 class LoginScreen_ extends State<LoginScreen> {
 
-  void onPress(){
-
-  }
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -71,7 +66,9 @@ class LoginScreen_ extends State<LoginScreen> {
                   child: Row(
                     children: [
                       TextButton(
-                        onPressed: onPress,
+                        onPressed: (){
+
+                        },
                         style: TextButton.styleFrom(
                           backgroundColor: Colors.blueAccent,
                           minimumSize: Size(160, 50)
@@ -80,7 +77,9 @@ class LoginScreen_ extends State<LoginScreen> {
                       ),
                       const SizedBox(width: 11,),
                       TextButton(
-                        onPressed: onPress,
+                        onPressed: (){
+
+                        },
                         style: TextButton.styleFrom(
                           backgroundColor: Colors.red,
                           minimumSize: Size(160, 50)
